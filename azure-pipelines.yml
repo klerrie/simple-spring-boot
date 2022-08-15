@@ -32,6 +32,6 @@ steps:
     displayName: Push Docker image
     inputs:
       containerRegistry: 'lehriecontainerregistry'
-      repository: 'spring-boot-example'
+      repository: 'spring-boot'
       command: 'push'
       tags: 'latest'
