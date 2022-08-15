@@ -31,7 +31,7 @@ steps:
   - task: Docker@2
     displayName: Push Docker image
     inputs:
-      containerRegistry: 'lehriecontainerregistry'
+      containerRegistry: 'springbootregistry'
       repository: 'spring-boot'
       command: 'push'
       tags: 'latest'
